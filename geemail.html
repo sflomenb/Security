@@ -45,11 +45,11 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a href="http://samflo.org">Main</a></li>
-          <li class="active"><a href="index.html">Security</a></li>
+          <li><a href="index.html">Security</a></li>
           <li><a href="markov.html">Markovain Tweets</a></li>
           <li><a href="poly.html">Polynomial</a></li>
           <li><a href="mine.html">Minesweeper</a></li>
-          <li><a href="geemail.html">GeeMail</a></li>
+          <li class="active"><a href="geemail.html">GeeMail</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -59,18 +59,16 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Hello!</h1>
-        <p class="lead about-text">I'm <b>Sam Flomenberg</b>. This is my security portfolio. During the semester of Fall 2016, I have taken <a href="http://sec.prof.ninja">CPEG476 Secure Software Design</a>. This class started with relearning the basics of C and C++, low-level languages that are fundamental to understanding software security. Additionally, I have learned about stack and heap smashing, mitigations for overflows, hash functions, salting and stretching, Diffie-Hellman key exchange and a deep understanding of the CERT standards.</p>
-        <p class="lead about-text">Take a look at some of the projects I have completed during the duration of this course.</p>
+        <h1>GeeMail</h1>
+        <p class="lead about-text">A secure local email client.</p>
       </div>
       <div class="home-body">
-        <h3>Projects</h3>
-        <ul>
-          <li><a href="markov.html">Markovain Tweets</a></li>
-          <li><a href="">Polynomial</a></li>
-          <li><a href="">Minesweeper</a></li>
-          <li><a href="">GeeMail</a></li>
-        </ul>
+      	<a href="https://github.com/sflomenb/geemail"><button type="button" class="btn github-btn">
+          <img title="View GitHub repo" class="clear-img" src="resources/images/github-logo.png" height="27"/> View GitHub repo</button></a>
+        <h3>The Project</h3>
+        <p class="lead">GeeMail is a secure asynchronous (same-machine) message platform. It prompts the user to sign-in or register. Once logged in, the user can either read their received messages or write a new one. All data is stored in an SQLite database and important information (such as passwords) is enecrypted using <a href="https://en.wikipedia.org/wiki/Advanced_Encryption_Standard">AES</a>. I used a simple version of <a href="https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange">Diffie-Hellman key exchange</a> to establish a shared key between users and use the shared key to encrypt the information. That way, only real and appripriate users can decrypt and read the messages.</p>
+        <h3>Lessons Learned</h3>
+        <p class="lead">I have learned a great deal more about encrpytion and security from doing this project. It was important to modularize the code into different files and classes. This project has both a GeeMail class as well as a database class. Additionally, since this was the most demanding of the projects completed in the course, I had to make sure everyone in the group was on the same page and knew what had to be completed. Working with others is a crucial skill in the workplace and all projects, especially this one, helped with that regard.</p>
       </div>
     </div>
   </div><!-- /.container -->
