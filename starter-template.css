@@ -290,3 +290,8 @@ ul {
   list-style-position: inside;
   padding-left: 0px;
 }
+
+.github-btn {
+	background-color: purple;
+	color: white;
+}
