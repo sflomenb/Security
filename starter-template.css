@@ -296,6 +296,11 @@ ul {
 	color: white;
 }
 
+.github-btn:hover {
+  color: white;
+  background-color: #6d0a6d;
+}
+
 .sec-pic {
   width: 90%
 }
